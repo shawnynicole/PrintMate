@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PrintMate_Example' do
+  pod 'PrintMate', :path => '../'
+
+  target 'PrintMate_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
