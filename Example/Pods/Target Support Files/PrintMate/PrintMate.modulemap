@@ -1,0 +1,6 @@
+framework module PrintMate {
+  umbrella header "PrintMate-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - PrintMate (0.1.0)
+
+DEPENDENCIES:
+  - PrintMate (from `../`)
+
+EXTERNAL SOURCES:
+  PrintMate:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PrintMate: b31f7c5f6af4e911715bc4a9334a0f7cb8024f56
+
+PODFILE CHECKSUM: 04b9aad8f22314ed41c89e34223d903ec9b61e75
+
+COCOAPODS: 1.8.4

@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21878C12F4A5074A48C0455EED854A81 /* Pods-PrintMate_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42C0244EFA50EE5A14D203C6FFA75531 /* Pods-PrintMate_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37BED51456424420FB4A5ED0767BA7E3 /* PrintMate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C70ED611359AC08041D73F612C70FE8F /* PrintMate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A8C1335A5C27D22B8A526DCC7A659F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4D62F11772EABD25BE6CB6D2AACF3557 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		91844025577CA97EAF5457FFCCD35F7E /* Pods-PrintMate_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D99DF3EAAFEEAC430609BD70409D2E1A /* Pods-PrintMate_Tests-dummy.m */; };
+		A37A65EB067175C41727281C6B609230 /* Pods-PrintMate_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D19F325D85CFB71E71D22EB40F064772 /* Pods-PrintMate_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8FAEA22A2BF4003111FD48D61D05D3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		CEE1F8BDF3FC88FE8012D1EC5D5EE060 /* Pods-PrintMate_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF477B70A6E44790A779AB3C9F8EAEB /* Pods-PrintMate_Example-dummy.m */; };
+		F3F16975B1153F432E3326391EEFB14B /* PrintMate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C8A6828CEE4A9D4639C5A1F8E4B763 /* PrintMate-dummy.m */; };
+		F7C6D1EA23832405004DCDA8 /* Verbose.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C6D1E923832405004DCDA8 /* Verbose.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B8BD982E6DD6FC419755C871C08C57CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED117B7288B488951ED6A4CEE33A7F47;
+			remoteInfo = PrintMate;
+		};
+		BD7CF976EAE18F4D4E2F29CD38333015 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FA194247FED150F5FA362AA8C5DB7F8;
+			remoteInfo = "Pods-PrintMate_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0144F07D5C5E393E4BFF9BE94CCB83B8 /* PrintMate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PrintMate.xcconfig; sourceTree = "<group>"; };
+		043E8ED6A9781B89E0F6F007771CF7DF /* Pods-PrintMate_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PrintMate_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2728D41051731EAAC191B0326992F18B /* PrintMate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PrintMate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3110AAD36DE72CBE59F21421C800C8E3 /* Pods-PrintMate_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PrintMate_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		422D907277ABE1E61886376930BE55AD /* Pods_PrintMate_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrintMate_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42C0244EFA50EE5A14D203C6FFA75531 /* Pods-PrintMate_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PrintMate_Example-umbrella.h"; sourceTree = "<group>"; };
+		51D5D3097220D7A534CAE81C09A5836E /* Pods-PrintMate_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PrintMate_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5B168987FCB479F1F9BE10E951AEBA2C /* Pods-PrintMate_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PrintMate_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5FB975DCE403A4957D78C2324AE5ACCC /* Pods-PrintMate_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PrintMate_Tests.modulemap"; sourceTree = "<group>"; };
+		69296A316FCA3E1B12BE0909F1A8CA66 /* Pods-PrintMate_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PrintMate_Example-Info.plist"; sourceTree = "<group>"; };
+		6D6CE0B74D4FAC8F7F0117D125B25AF0 /* Pods-PrintMate_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PrintMate_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		73C8A6828CEE4A9D4639C5A1F8E4B763 /* PrintMate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PrintMate-dummy.m"; sourceTree = "<group>"; };
+		75E9D87E98FF062E724388B4E5AD277E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		85426757204B4FFA32C649322510FB2F /* Pods-PrintMate_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PrintMate_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		873DBC384342ED95093B48E34504EF0A /* Pods-PrintMate_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PrintMate_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		87468F707FC0553A987C94AE9CD6075F /* Pods-PrintMate_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PrintMate_Tests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A151BA775AD6049C52FC2A93C60DED5E /* Pods_PrintMate_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrintMate_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3D04663DB9212B5C1F1C778A1DBD415 /* PrintMate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PrintMate-prefix.pch"; sourceTree = "<group>"; };
+		ACCFD116E58271BD64B46356C1658F30 /* Pods-PrintMate_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PrintMate_Example.modulemap"; sourceTree = "<group>"; };
+		B33CE4C300FB5C96243799B8D1D06181 /* PrintMate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PrintMate.modulemap; sourceTree = "<group>"; };
+		B79AD11764F52E82DB0CF70543E0BFAC /* PrintMate-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PrintMate-Info.plist"; sourceTree = "<group>"; };
+		BC3055CBEB28C78CBB7408ECC46B508F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C70ED611359AC08041D73F612C70FE8F /* PrintMate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PrintMate-umbrella.h"; sourceTree = "<group>"; };
+		CA2C8835043D82FA1A1AA9D7B257F033 /* Pods-PrintMate_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PrintMate_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CE72BEE8A9B11B1E52A5FFB447B1C3F1 /* Pods-PrintMate_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PrintMate_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D19F325D85CFB71E71D22EB40F064772 /* Pods-PrintMate_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PrintMate_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D99DF3EAAFEEAC430609BD70409D2E1A /* Pods-PrintMate_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PrintMate_Tests-dummy.m"; sourceTree = "<group>"; };
+		EFF477B70A6E44790A779AB3C9F8EAEB /* Pods-PrintMate_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PrintMate_Example-dummy.m"; sourceTree = "<group>"; };
+		F3A63CA053E68218D234356BE8EF33CE /* PrintMate.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PrintMate.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F7C6D1E923832405004DCDA8 /* Verbose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Verbose.swift; path = PrintMate/Classes/Verbose.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56E90F32FE8ADB7F5E52A90D56F8AE9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8FAEA22A2BF4003111FD48D61D05D3B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A172616864E095B6231C8CD3679818C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A8C1335A5C27D22B8A526DCC7A659F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A489AF8D0E64060ADF37060124306D43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D62F11772EABD25BE6CB6D2AACF3557 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0817529E74F77544B3315378E980B617 /* Pods-PrintMate_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5FB975DCE403A4957D78C2324AE5ACCC /* Pods-PrintMate_Tests.modulemap */,
+				873DBC384342ED95093B48E34504EF0A /* Pods-PrintMate_Tests-acknowledgements.markdown */,
+				51D5D3097220D7A534CAE81C09A5836E /* Pods-PrintMate_Tests-acknowledgements.plist */,
+				D99DF3EAAFEEAC430609BD70409D2E1A /* Pods-PrintMate_Tests-dummy.m */,
+				87468F707FC0553A987C94AE9CD6075F /* Pods-PrintMate_Tests-Info.plist */,
+				D19F325D85CFB71E71D22EB40F064772 /* Pods-PrintMate_Tests-umbrella.h */,
+				6D6CE0B74D4FAC8F7F0117D125B25AF0 /* Pods-PrintMate_Tests.debug.xcconfig */,
+				85426757204B4FFA32C649322510FB2F /* Pods-PrintMate_Tests.release.xcconfig */,
+			);
+			name = "Pods-PrintMate_Tests";
+			path = "Target Support Files/Pods-PrintMate_Tests";
+			sourceTree = "<group>";
+		};
+		74EA152173E7947B070ACE44C556988D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				422D907277ABE1E61886376930BE55AD /* Pods_PrintMate_Example.framework */,
+				A151BA775AD6049C52FC2A93C60DED5E /* Pods_PrintMate_Tests.framework */,
+				2728D41051731EAAC191B0326992F18B /* PrintMate.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AF3041797C3A2F9E96DC465E0666EBC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				75E9D87E98FF062E724388B4E5AD277E /* LICENSE */,
+				F3A63CA053E68218D234356BE8EF33CE /* PrintMate.podspec */,
+				BC3055CBEB28C78CBB7408ECC46B508F /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7BCBC381D9E6DED1D10D1373C7A2F517 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF484245458F34036C1C58F912FC1040 /* PrintMate */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7FD7F7DFF72EBE83C5B4C82F68093AAD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B33CE4C300FB5C96243799B8D1D06181 /* PrintMate.modulemap */,
+				0144F07D5C5E393E4BFF9BE94CCB83B8 /* PrintMate.xcconfig */,
+				73C8A6828CEE4A9D4639C5A1F8E4B763 /* PrintMate-dummy.m */,
+				B79AD11764F52E82DB0CF70543E0BFAC /* PrintMate-Info.plist */,
+				A3D04663DB9212B5C1F1C778A1DBD415 /* PrintMate-prefix.pch */,
+				C70ED611359AC08041D73F612C70FE8F /* PrintMate-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PrintMate";
+			sourceTree = "<group>";
+		};
+		A1CC7EA41326441A0192960E8B9E46E4 /* Pods-PrintMate_Example */ = {
+			isa = PBXGroup;
+			children = (
+				ACCFD116E58271BD64B46356C1658F30 /* Pods-PrintMate_Example.modulemap */,
+				3110AAD36DE72CBE59F21421C800C8E3 /* Pods-PrintMate_Example-acknowledgements.markdown */,
+				5B168987FCB479F1F9BE10E951AEBA2C /* Pods-PrintMate_Example-acknowledgements.plist */,
+				EFF477B70A6E44790A779AB3C9F8EAEB /* Pods-PrintMate_Example-dummy.m */,
+				043E8ED6A9781B89E0F6F007771CF7DF /* Pods-PrintMate_Example-frameworks.sh */,
+				69296A316FCA3E1B12BE0909F1A8CA66 /* Pods-PrintMate_Example-Info.plist */,
+				42C0244EFA50EE5A14D203C6FFA75531 /* Pods-PrintMate_Example-umbrella.h */,
+				CE72BEE8A9B11B1E52A5FFB447B1C3F1 /* Pods-PrintMate_Example.debug.xcconfig */,
+				CA2C8835043D82FA1A1AA9D7B257F033 /* Pods-PrintMate_Example.release.xcconfig */,
+			);
+			name = "Pods-PrintMate_Example";
+			path = "Target Support Files/Pods-PrintMate_Example";
+			sourceTree = "<group>";
+		};
+		AD46DDD89DE7D1A81C40F7D5011DBE0D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1CC7EA41326441A0192960E8B9E46E4 /* Pods-PrintMate_Example */,
+				0817529E74F77544B3315378E980B617 /* Pods-PrintMate_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BF484245458F34036C1C58F912FC1040 /* PrintMate */ = {
+			isa = PBXGroup;
+			children = (
+				F7C6D1E923832405004DCDA8 /* Verbose.swift */,
+				7AF3041797C3A2F9E96DC465E0666EBC /* Pod */,
+				7FD7F7DFF72EBE83C5B4C82F68093AAD /* Support Files */,
+			);
+			name = PrintMate;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				7BCBC381D9E6DED1D10D1373C7A2F517 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				74EA152173E7947B070ACE44C556988D /* Products */,
+				AD46DDD89DE7D1A81C40F7D5011DBE0D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		05CB7AEAAEC5AECD5299C9FCE4C2475D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A37A65EB067175C41727281C6B609230 /* Pods-PrintMate_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DAAE439D87F470B18C40DAB62A47E4E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21878C12F4A5074A48C0455EED854A81 /* Pods-PrintMate_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF709F0C04E800D3EDE07343D8D4FD24 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37BED51456424420FB4A5ED0767BA7E3 /* PrintMate-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		12097A9A2CA4DF51C96082E0C875D5D6 /* Pods-PrintMate_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C5C641A72798C1FADE5061A9C2F2C98 /* Build configuration list for PBXNativeTarget "Pods-PrintMate_Tests" */;
+			buildPhases = (
+				05CB7AEAAEC5AECD5299C9FCE4C2475D /* Headers */,
+				E4F8EB3DECAA213A66E9599B8FDB07EE /* Sources */,
+				A489AF8D0E64060ADF37060124306D43 /* Frameworks */,
+				93180BBAC45B8E2BF6168CA4ECA71CDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				337CC60CB656F556D1AD65CD5C714CDE /* PBXTargetDependency */,
+			);
+			name = "Pods-PrintMate_Tests";
+			productName = "Pods-PrintMate_Tests";
+			productReference = A151BA775AD6049C52FC2A93C60DED5E /* Pods_PrintMate_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3FA194247FED150F5FA362AA8C5DB7F8 /* Pods-PrintMate_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BD35F71F923B073FD51CE43A8B8E789 /* Build configuration list for PBXNativeTarget "Pods-PrintMate_Example" */;
+			buildPhases = (
+				3DAAE439D87F470B18C40DAB62A47E4E /* Headers */,
+				3AAE8DE2E2C095BF879217904F7EE7B1 /* Sources */,
+				56E90F32FE8ADB7F5E52A90D56F8AE9B /* Frameworks */,
+				E1C4C4F764B5E74C847922BD1727E68F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5C7D3FAD25DBD1DD6063BB903D9FBE8 /* PBXTargetDependency */,
+			);
+			name = "Pods-PrintMate_Example";
+			productName = "Pods-PrintMate_Example";
+			productReference = 422D907277ABE1E61886376930BE55AD /* Pods_PrintMate_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ED117B7288B488951ED6A4CEE33A7F47 /* PrintMate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E88A2F78C1C4DDB0DBAD9427F8ABAF40 /* Build configuration list for PBXNativeTarget "PrintMate" */;
+			buildPhases = (
+				FF709F0C04E800D3EDE07343D8D4FD24 /* Headers */,
+				C748FB225B7DAC41CE8342E45FD06784 /* Sources */,
+				A172616864E095B6231C8CD3679818C3 /* Frameworks */,
+				B42E53B84CE89C816F26811355D7A345 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrintMate;
+			productName = PrintMate;
+			productReference = 2728D41051731EAAC191B0326992F18B /* PrintMate.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					ED117B7288B488951ED6A4CEE33A7F47 = {
+						LastSwiftMigration = 1110;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 74EA152173E7947B070ACE44C556988D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FA194247FED150F5FA362AA8C5DB7F8 /* Pods-PrintMate_Example */,
+				12097A9A2CA4DF51C96082E0C875D5D6 /* Pods-PrintMate_Tests */,
+				ED117B7288B488951ED6A4CEE33A7F47 /* PrintMate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93180BBAC45B8E2BF6168CA4ECA71CDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B42E53B84CE89C816F26811355D7A345 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1C4C4F764B5E74C847922BD1727E68F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AAE8DE2E2C095BF879217904F7EE7B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE1F8BDF3FC88FE8012D1EC5D5EE060 /* Pods-PrintMate_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C748FB225B7DAC41CE8342E45FD06784 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F16975B1153F432E3326391EEFB14B /* PrintMate-dummy.m in Sources */,
+				F7C6D1EA23832405004DCDA8 /* Verbose.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4F8EB3DECAA213A66E9599B8FDB07EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91844025577CA97EAF5457FFCCD35F7E /* Pods-PrintMate_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		337CC60CB656F556D1AD65CD5C714CDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PrintMate_Example";
+			target = 3FA194247FED150F5FA362AA8C5DB7F8 /* Pods-PrintMate_Example */;
+			targetProxy = BD7CF976EAE18F4D4E2F29CD38333015 /* PBXContainerItemProxy */;
+		};
+		C5C7D3FAD25DBD1DD6063BB903D9FBE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PrintMate;
+			target = ED117B7288B488951ED6A4CEE33A7F47 /* PrintMate */;
+			targetProxy = B8BD982E6DD6FC419755C871C08C57CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12A55380B1FEF7425BD4DD6498889DD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0144F07D5C5E393E4BFF9BE94CCB83B8 /* PrintMate.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PrintMate/PrintMate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PrintMate/PrintMate-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PrintMate/PrintMate.modulemap";
+				PRODUCT_MODULE_NAME = PrintMate;
+				PRODUCT_NAME = PrintMate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5FB3F8041105051E53B5C34269BA7E14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D6CE0B74D4FAC8F7F0117D125B25AF0 /* Pods-PrintMate_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PrintMate_Tests/Pods-PrintMate_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PrintMate_Tests/Pods-PrintMate_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		60CC02D7873DC9C786492A40394995B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA2C8835043D82FA1A1AA9D7B257F033 /* Pods-PrintMate_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PrintMate_Example/Pods-PrintMate_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PrintMate_Example/Pods-PrintMate_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		92AF5FF52102A35393CD6FFB6AB475E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE72BEE8A9B11B1E52A5FFB447B1C3F1 /* Pods-PrintMate_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PrintMate_Example/Pods-PrintMate_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PrintMate_Example/Pods-PrintMate_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A35AF117B9D19E027F5A58B7B4372212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85426757204B4FFA32C649322510FB2F /* Pods-PrintMate_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PrintMate_Tests/Pods-PrintMate_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PrintMate_Tests/Pods-PrintMate_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D26F26D6AB045597068C0F6F83DB4E68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0144F07D5C5E393E4BFF9BE94CCB83B8 /* PrintMate.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PrintMate/PrintMate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PrintMate/PrintMate-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PrintMate/PrintMate.modulemap";
+				PRODUCT_MODULE_NAME = PrintMate;
+				PRODUCT_NAME = PrintMate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C5C641A72798C1FADE5061A9C2F2C98 /* Build configuration list for PBXNativeTarget "Pods-PrintMate_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FB3F8041105051E53B5C34269BA7E14 /* Debug */,
+				A35AF117B9D19E027F5A58B7B4372212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BD35F71F923B073FD51CE43A8B8E789 /* Build configuration list for PBXNativeTarget "Pods-PrintMate_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92AF5FF52102A35393CD6FFB6AB475E1 /* Debug */,
+				60CC02D7873DC9C786492A40394995B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E88A2F78C1C4DDB0DBAD9427F8ABAF40 /* Build configuration list for PBXNativeTarget "PrintMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D26F26D6AB045597068C0F6F83DB4E68 /* Debug */,
+				12A55380B1FEF7425BD4DD6498889DD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
